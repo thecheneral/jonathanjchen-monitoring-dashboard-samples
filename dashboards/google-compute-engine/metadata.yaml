@@ -23,3 +23,11 @@ sample_dashboards:
     related_integrations:
       - id: gce
         platform: GCP
+  -
+    category: Google Compute Engine
+    id: gce-reservation-monitoring-dashboard
+    display_name: GCE Reservations Monitoring
+    description: "This dashboard enables you to visualize [reservation usage](https://cloud.google.com/compute/docs/instances/reservations-monitor) to monitor GCE local and shared reservations usage at the owner project level."
+    related_integrations:
+      - id: gce
+        platform: GCP
